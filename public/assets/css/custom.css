@@ -1,0 +1,47 @@
+.profile-page .profile-header .cover .cover-body .profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.navbar .navbar-content .navbar-nav .nav-item.nav-profile .nav-link img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.navbar .navbar-content .navbar-nav .nav-item.nav-profile .dropdown-menu .dropdown-header .figure img {
+    object-fit: cover;
+}
+
+
+.profile-page .profile-header .cover .gray-shade {
+    background: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0.9) 20%, transparent 60%);
+}
+
+.profile-page .profile-header .cover figure {
+    height: auto;
+    overflow: auto;
+}
+
+.profile-page .profile-header .cover figure img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+}
+
+@media(max-width: 767px) {
+    .profile-page .profile-header .cover figure {
+        height: auto;
+        overflow: auto;
+    }
+    .profile-page .profile-header .cover figure img {
+        object-fit: cover;
+        max-height: 150px !important;
+        width: 100%;
+    }
+    .profile-page .profile-header .cover .cover-body .profile-pic {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}
